@@ -1,5 +1,5 @@
 # code your #position_taken? method here!
 
-def position_taken? (i)
-  !(i == " " || i == "" || i == nil)
+def position_taken? (board, i)
+  !(board[i] == " " || board[i] == "" || board[i] == nil)
 end
